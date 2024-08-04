@@ -1,0 +1,51 @@
+  body {
+    font-family: 'Lalezar', sans-serif;
+    width: 350px;
+    padding: 15px;
+    background-color: #f8f9fa;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  #addCurrentSite {
+    margin-bottom: 15px;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #6c757d;
+  }
+  
+  #notification {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    display: none;
+  }
+  
+  .btn-group-sm>.btn, .btn-sm {
+    --bs-btn-padding-y: 0.25rem;
+    --bs-btn-padding-x: 0.5rem;
+    --bs-btn-font-size: 0.875rem;
+    --bs-btn-border-radius: 0.25rem;
+  }
+  
+  .modal-header .btn-close {
+    padding: calc(var(--bs-modal-header-padding-y) * .5) calc(var(--bs-modal-header-padding-x) * .5);
+    margin: calc(-.5 * var(--bs-modal-header-padding-x)) calc(-.5 * var(--bs-modal-header-padding-y)) auto;
+  }
+  
+  .btn-group-vertical {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .btn-group-vertical > .btn {
+    width: 100%;
+    margin-bottom: 5px;
+  }
